@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantilla</title>
-    <meta name="description" content="Esto es la descripción de mi página web">
-    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
-    <meta name="author" content="Nicolás Alumno">
-    <meta name="application-name" content="Plantilla.html">
-    <meta name="generator" content="VSCode">
+    <meta name="description" content="Esto es una descripción" />
+    <meta name="keywords" content="palabra1, palabra2, palabra3" />
+    <meta name="author" content="Nombre" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Formulario</title>
 </head>
 <body>
-    
+<form action="insertar_cv.html" method="get">
+<fieldset>
+<legend>Rellenar</legend>
+<select name="Sexo">
+<option value="Mujer">Mujer</option>
+<option value="Hombre">Hombre</option>
+</select>
+<br/>
+<label>Elige un color<input type="color";/></label>
+<br/>
+<label>Elige una fecha<input type="date";/></label>
+<br/>
+<label><input type="radio";/>Java</label><label><input type="radio";/>Python</label><label><input type="radio";/>HTML</label><label><input type="radio";/>VisualBasic</label><label><input type="radio";/>CSS</label>
+<br/>
+<label><input type="checkbox";/>Hombre</label><label><input type="checkbox";/>Mujer</label>
+<br/>
+<label><input type="file" multiple;/></label>
+<br/>
+<textarea placeholder="Por favor,escriba aquí";></textarea>
+</fieldset>
+</form>
 </body>
 </html>
